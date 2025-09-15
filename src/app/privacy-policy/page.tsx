@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 // app/privacy-policy/page.tsx  (App Router)
 // or pages/privacy-policy.tsx (Pages Router)
 
