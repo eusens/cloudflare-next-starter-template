@@ -44,6 +44,7 @@ const Navbar = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-white text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to Our Store</h1>
           <p className="mb-6">Explore the best products from top brands</p>
+          <p className="mb-18">Control & Monitoring: DCS, ESD. SCADA, HMI, PLC</p>
           <Link
             href="/products"
             className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"

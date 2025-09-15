@@ -6,10 +6,9 @@ import ProductList from '@/components/product-list';
 const Products = () => {
   return(
   <>
-  Product List
   <ProductList
   data={sampleData.products}
-  title='Newest Arrivals'
+  title='Product List'
 //   limit={4}
   />
   </>

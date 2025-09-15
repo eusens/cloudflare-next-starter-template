@@ -102,7 +102,7 @@ export default function ContactPage() {
       {/* Map Image */}
       <div className="relative w-full h-64 rounded-lg overflow-hidden">
         <Image
-          src="/map-placeholder.jpg" // Replace with your static map image
+          src="/images/Oil-Refining-Process.webp" // Replace with your static map image
           alt="Map location"
           fill
           className="object-cover"

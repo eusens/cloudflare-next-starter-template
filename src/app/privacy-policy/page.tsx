@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto px-4 py-12 prose prose-lg">
       {/* Header Image */}
-      <div className="w-full mb-8">
+      {/* <div className="w-full mb-8">
         <Image
           src="/refund-banner.jpg" // replace with your image path
           alt="Privacy Policy"
@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           height={400}
           className="rounded-lg shadow-md object-cover"
         />
-      </div>
+      </div> */}
 
       <h1>Privacy Policy for Our Site</h1>
 
