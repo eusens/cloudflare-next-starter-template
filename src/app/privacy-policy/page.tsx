@@ -3,7 +3,7 @@
 // app/privacy-policy/page.tsx  (App Router)
 // or pages/privacy-policy.tsx (Pages Router)
 
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function PrivacyPolicy() {
   return (
