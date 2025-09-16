@@ -69,7 +69,11 @@ export default async function DynamicPage({ params }: PageProps) {
           <p className="text-red-600 font-medium mb-4">Out of Stock</p>
         )}
 
-        <p className="mb-6">{product.description}</p>
+        {/* ✅ Render description as real HTML */}
+        <div
+          className="mb-6 prose"
+          dangerouslySetInnerHTML={{ __html: product.description }}
+        />
 
         <button
           disabled={product.stock === 0}

@@ -102,6 +102,23 @@ const sampleData = {
       isFeatured: true,
       banner: null,
     },
+    {
+      name: '1756-ow16i',
+      slug: '1756-ow16i',
+      category: "Allen Bradley",
+      description: '<a href="https://eusens.com/allen-bradley-1756-ob16i-digital-output-module/" target="_blank">1756-ob16i</a> Output Module,ControlLogix,Relay Digital,16 Point, 16 Normally Open,Individually Isolated Contacts',
+      images: [
+        'https://a-payloadcms.s3.amazonaws.com/media/00eeba963165310971f019f79cb8125bb17b60d4.jpg',
+        'https://a-payloadcms.s3.amazonaws.com/media/0104cd89f278f037a554a81286011d0576eb4432.jpg',
+      ],
+      price: 1999.99,
+      brand: 'Allen Bradley',
+      rating: 4.6,
+      numReviews: 12,
+      stock: 8,
+      isFeatured: true,
+      banner: null,
+    },
   ],
 };
 
