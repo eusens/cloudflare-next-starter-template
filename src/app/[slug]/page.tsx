@@ -24,7 +24,7 @@ export default async function DynamicPage({ params }: PageProps) {
     return (
       <div className="p-8 text-center">
         <h1 className="text-2xl font-bold">Product Not Found</h1>
-        <p className="text-gray-600">We couldn’t find a product with slug: {slug}</p>
+        <p className="text-gray-600">We could not find a product with slug: {slug}</p>
       </div>
     );
   }
@@ -79,9 +79,28 @@ export default async function DynamicPage({ params }: PageProps) {
           disabled={product.stock === 0}
           className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 disabled:bg-gray-400"
         >
-          Add to Cart
+          Contact us
         </button>
       </div>
+      {/* ✅ Conditionally render details if available */}
+      {product.details && (
+        <div className="md:col-span-2 mt-12">
+          <h2 className="text-2xl font-bold mb-4">Product Details</h2>
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: product.details }}
+          />
+        </div>
+      )}
+      {product.conditions && (
+        <div className="md:col-span-2 mt-12">
+          <h5 className="text-2xl font-bold mb-4">Item condition</h5>
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: product.conditions }}
+          />
+        </div>
+      )}
     </div>
   );
 }
